@@ -96,7 +96,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/09/05/hello-world/" data-id="cj7735mxc000078yq3lf1kt42" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/09/05/hello-world/" data-id="cj7738nib00009eyqankr8brk" class="article-share-link">Share</a>
       
       
     </footer>
@@ -128,15 +128,14 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>#First,build up natapp<br>1.download it at <a href="https://natapp.cn/" target="_blank" rel="external">https://natapp.cn/</a><br>2.follow <a href="https://natapp.cn/article/supervisor" target="_blank" rel="external">https://natapp.cn/article/supervisor</a>    use supervisor to run natapp with stdout to file</p>
-<p>#Second,build up bypy</p>
-<p>follow <a href="https://github.com/houtianze/bypy" target="_blank" rel="external">https://github.com/houtianze/bypy</a> to install bypy</p>
-<p>#Third, use the script below to upload your port to BaiduNetDisk<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/bash</span></div><div class="line"></div><div class="line">LOGFILE=/home/pi/natapp/natapp_log.txt</div><div class="line">SAVEFILE=/home/pi/natapp/login.txt</div><div class="line">cat <span class="variable">$LOGFILE</span> | grep <span class="string">"server.natappfree.cc:[0-9]\&#123;5\&#125;"</span>| sed <span class="string">'s/\"/\n/g'</span> | sed <span class="string">'s/ /\n/g'</span> | grep <span class="string">"server.natappfree.cc"</span> &gt; <span class="variable">$SAVEFILE</span></div><div class="line">python -m bypy upload /home/pi/natapp/login.txt /natapp -v -d</div><div class="line">python -m bypy upload /home/pi/natapp/natapp_log.txt /natapp -v -d</div></pre></td></tr></table></figure></p>
+        <h1 id="First-build-up-natapp"><a href="#First-build-up-natapp" class="headerlink" title="First,build up natapp"></a>First,build up natapp</h1><p>1.download it at <a href="https://natapp.cn/" target="_blank" rel="external">https://natapp.cn/</a><br>2.follow <a href="https://natapp.cn/article/supervisor" target="_blank" rel="external">https://natapp.cn/article/supervisor</a>    use supervisor to run natapp with stdout to file</p>
+<h1 id="Second-build-up-bypy"><a href="#Second-build-up-bypy" class="headerlink" title="Second,build up bypy"></a>Second,build up bypy</h1><p>follow <a href="https://github.com/houtianze/bypy" target="_blank" rel="external">https://github.com/houtianze/bypy</a> to install bypy</p>
+<h1 id="Third-use-the-script-below-to-upload-your-port-to-BaiduNetDisk"><a href="#Third-use-the-script-below-to-upload-your-port-to-BaiduNetDisk" class="headerlink" title="Third, use the script below to upload your port to BaiduNetDisk"></a>Third, use the script below to upload your port to BaiduNetDisk</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/bash</span></div><div class="line"></div><div class="line">LOGFILE=/home/pi/natapp/natapp_log.txt</div><div class="line">SAVEFILE=/home/pi/natapp/login.txt</div><div class="line">cat <span class="variable">$LOGFILE</span> | grep <span class="string">"server.natappfree.cc:[0-9]\&#123;5\&#125;"</span>| sed <span class="string">'s/\"/\n/g'</span> | sed <span class="string">'s/ /\n/g'</span> | grep <span class="string">"server.natappfree.cc"</span> &gt; <span class="variable">$SAVEFILE</span></div><div class="line">python -m bypy upload /home/pi/natapp/login.txt /natapp -v -d</div><div class="line">python -m bypy upload /home/pi/natapp/natapp_log.txt /natapp -v -d</div></pre></td></tr></table></figure>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/09/05/natapp外网连接/" data-id="cj7735myd000178yqp18sal4q" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/09/05/natapp外网连接/" data-id="cj7738nje00019eyqaevl5ttx" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ssh/">ssh</a></li></ul>
